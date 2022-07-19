@@ -2,11 +2,14 @@
 The project is an upgrade of the [telegram_esp32 project](https://github.com/albino98/telegram_esp32). The purpose of the project is to configure an MQTT broker on Raspberry to initially manage an Esp32-Cam surveillance camera. Later other functions can be configured or other devices connected via mqtt.
 
 ## Description
+Below you will find a logical scheme of operation.
 
 ![schema](https://user-images.githubusercontent.com/63566699/179841474-05ebdde3-7ff6-4c4a-b6f4-73e0fe397b97.png)
 
 
 ## Configuration
+
+Remember that you can configure the MQTT broker not necessarily on a Raspberry but also on a normal PC.
 
 ### Raspberry
 
