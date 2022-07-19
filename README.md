@@ -1,5 +1,5 @@
 # Raspberry-MQTT
-Security system with raspberry, mqtt and esp32 cam
+The project is an upgrade of the [telegram_esp32 project](https://github.com/albino98/telegram_esp32). The purpose of the project is to configure an MQTT broker on Raspberry to initially manage an Esp32-Cam surveillance camera. Later other functions can be configured or other devices connected via mqtt.
 
 ## Description
 
