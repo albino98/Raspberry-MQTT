@@ -36,3 +36,13 @@ Remember that you can configure the MQTT broker not necessarily on a Raspberry b
   ```
   
   Remember that if you want to use the MQTT broker only locally without exposing it to the network you don't need to set up authentication, so just run the commands above. However, if you still want to set up authentication on the broker or want to expose your ip address for remote access then follow the online guides like this: https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/, or official documentation: https://mosquitto.org/documentation/authentication-methods/.
+
+  If you don't already know the ip address of your Raspberry (or pc) you can see it using the following command. You will need it later to connect to the broker from client devices such as the Esp32.
+
+  ```
+  hostname -I
+  ```
+  or
+  ```
+  ifconfig
+  ```
